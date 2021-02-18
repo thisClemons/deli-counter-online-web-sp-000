@@ -7,6 +7,7 @@ def line(katz_deli)
   else
     katz_deli.each do |person|
       katz_deli[katz_deli.index(person)] = katz_deli.index(person) + 1 + ". " + katz_deli[katz_deli.index(person)]
-    puts katz_deli.join(" ")
+      puts katz_deli.join(" ")
+    end
   end
 end
